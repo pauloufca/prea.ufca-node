@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sistema de recarga do RU – UFCA</title>
+  <meta name="description" content="Interface de entrada do sistema de recarga" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <!-- acessibilidade / e-MAG:
+       • Skip to content
+       • landmarks <header>, <main>, <footer>
+       • botão <a role="button"> + aria-label
+       • contraste WCAG 2.1 AA
+       • foco visível
+  -->
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Ir para o conteúdo principal</a>
+
+  <header role="banner" class="header">
+    <h1 class="visually-hidden">Sistema de recarga do RU/UFCA</h1>
+  </header>
+
+  <main id="main-content" role="main" class="main">
+    <section class="login-container" aria-labelledby="login-title">
+      <h2 id="login-title" class="visually-hidden">Área de Login do PREA UFCA</h2>
+      <h2 id="page-title" class="page-title">Sistema de recarga do RU</h2>
+
+      <a href="<%= loginUrl %>"
+         role="button"
+         aria-label="Entrar no sistema de recarga do RU"
+         class="btn-login">
+        Entrar
+      </a>
+    </section>
+  </main>
+
+  <footer role="contentinfo" class="footer">
+    <p>PREA © 2025 | <span aria-label="Desenvolvido pela Diretoria de TI da UFCA">Desenvolvido pela DTI/UFCA</span></p>
+  </footer>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>

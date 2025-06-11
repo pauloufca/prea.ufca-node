@@ -1,0 +1,14 @@
+{
+  "name": "prea-ufca-node",
+  "version": "1.0.0",
+  "description": "Sistema de recarga do RU – versão Node.js com acessibilidade WCAG 2.1 AA",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,52 @@
+/* Reset e base */
+* { margin:0; padding:0; box-sizing:border-box; }
+html { font-family:Arial,sans-serif; font-size:100%; line-height:1.5; }
+body { display:flex; flex-direction:column; min-height:100vh; background:#fff; color:#000; }
+
+/* Skip-link */
+.skip-link {
+  position:absolute; top:-40px; left:1rem;
+  background:#000; color:#fff; padding:0.5rem; text-decoration:none;
+}
+.skip-link:focus {
+  top:1rem; outline:3px dashed #FBBF24;
+}
+
+/* Header/Main/Footer */
+.header { padding:1rem; text-align:center; }
+.main { flex:1; display:flex; align-items:center; justify-content:center; }
+.footer {
+  background:#000; color:#fff; text-align:center; padding:1rem; font-size:0.875rem;
+}
+.footer span {
+    color: #F59E0B; /* Laranja para realce */
+}
+
+/* Login Container */
+.login-container { text-align:center; width:100%; }
+.page-title {
+  font-size:2rem; font-weight:bold; margin-bottom:1.5rem;
+}
+
+/* Botão Entrar */
+.btn-login {
+  display:inline-block; background:#000; color:#fff;
+  padding:1rem 2rem; font-size:1.25rem; text-decoration:none;
+  border:2px solid #000; border-radius:4px; transition:.2s;
+}
+.btn-login:hover, .btn-login:focus {
+  background:#fff; color:#000;
+}
+.btn-login:focus { outline:3px dashed #F59E0B; }
+
+/* Helpers */
+.visually-hidden {
+  position:absolute; width:1px; height:1px; margin:-1px;
+  overflow:hidden; clip:rect(0 0 0 0);
+}
+
+/* Responsividade */
+@media(max-width:600px){
+  .page-title { font-size:1.75rem; }
+  .btn-login { padding:.75rem 1.5rem; font-size:1rem; }
+}
