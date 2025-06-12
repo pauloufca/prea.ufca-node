@@ -58,7 +58,7 @@ modelo/
 
     - Suporte a NVDA: foco visível, atributos aria- mínimos para leitura correta.
 
-### 2.2 Comentários de acessibilidade no HTML (views/home_view.php)
+### 2.2 Comentários de acessibilidade no HTML (views/home.ejs)
 
     - <a href="#main-content" class="skip-link">Ir para o conteúdo principal</a>: permite ao usuário de leitor de tela ou teclado “pular” banners, menus, etc. (WCAG 2.4.1).
 
