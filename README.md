@@ -34,7 +34,7 @@ modelo/
 ├── package.json
 ├── package-lock.json
 ├── views/
-│   └── home.js
+│   └── home.ejs
 ├── public/
 │   ├── css/
 │   │   └── style.css
